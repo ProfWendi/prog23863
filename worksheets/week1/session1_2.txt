@@ -1,0 +1,11 @@
+session 1.2 worksheet questions
+
+1. if a number % 2 is 0, then it's even, otherwise (the only other possibility
+is that number % 2 is 1) it's odd
+2. multiplication and division
+3. addition/subtraction
+4. the + inside the brackets (c + d)
+   the multiplication of a and b
+   the greater than operator
+   
+(everything else already has solution URLs)

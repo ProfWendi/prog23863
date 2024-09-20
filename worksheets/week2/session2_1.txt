@@ -1,0 +1,36 @@
+Session 2.1
+
+Practice Exercises
+
+Exercise 5
+public class GetAlphaGrade {
+	public static void main(String[] args) {
+		
+		double finalGrade = 89.5; // test with different values
+		
+		String letter = "";
+		if (finalGrade >= 90) {
+		    letter = "A+";
+		} else if (finalGrade >= 85) {
+		    letter = "A";
+		} else if (finalGrade >= 80) {
+		    letter = "A-";
+		} else if (finalGrade >= 75) {
+		    letter = "B+";
+		} else if (finalGrade >= 70) {
+		    letter = "B";
+		} else if (finalGrade >= 65) {
+		    letter = "C+";
+		} else if (finalGrade >= 60) {
+		    letter = "C";
+		} else if (finalGrade >= 55) {
+		    letter = "D+";
+		} else if (finalGrade >= 50) {
+		    letter = "D";
+		} else {
+		    letter = "F";
+		}
+		
+		System.out.printf("Letter grade: %s\n", letter);
+	}
+}
